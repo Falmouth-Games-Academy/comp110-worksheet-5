@@ -8,4 +8,6 @@
 
 (e) It is now no longer quadratic because it now only has to do half the checks it originally did so 0(n2) will now be 0(n2) / 2.
 
-(f)
+(f) O(n log n) - https://wiki.python.org/moin/TimeComplexity
+
+(g)
