@@ -10,4 +10,8 @@
 
 (f) O(n log n) - https://wiki.python.org/moin/TimeComplexity
 
-(g)
+(g) O(n log n + n) - First the sort takes O(n log n) and then it only has to run through each item in the list once (+n) as any duplicates will be next to each other.
+
+(h) If the list is large, the second algorithm (sorting one) will be faster as it doesn't have to loop as much.
+
+(i) The slower algorithm is easier to understand because it may not be obvious at first how the faster one works with the sort function until you realise duplicates will be next to each other after the sort.
