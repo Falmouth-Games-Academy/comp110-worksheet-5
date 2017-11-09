@@ -17,8 +17,8 @@ Base repository for COMP110 worksheet C
 ## a State what task this algorithm performs
 For each element in array i compare to each element in array j. If 2 elements are not in the same position in the list and they hold the same value then there is a duplicate, else there is not.
 ***
-## b Explain why the worst case running time of the algorithm is quadratic, i.e.O(n^2^).
-The search mamkes use of 2 liniar searches resulting in a quadratic search. This is due to the combination of nested loops resulting in the worst case being O(n^x^) where x is the number of nested loops in this case 2. 
+## b Explain why the worst case running time of the algorithm is quadratic, i.e.O(n^2).
+The search mamkes use of 2 liniar searches resulting in a quadratic search. This is due to the combination of nested loops resulting in the worst case being O(n^x) where x is the number of nested loops in this case 2. 
 ***
 Now suppose that the for loop on line 4 is changed so that j ranges from 0 to i − 1
 ***
@@ -52,6 +52,7 @@ The sort function in python makes use of the syntax ```Sort()``` the details of 
 The algorithm above has to sections to it, the sort which makes use of the python inbuilt sort function gives this section the time complexity of O(n log n). The second section is a liniar search which has a time complexity of o(n). Due to the nature of "big O notation" it only looks at the most significant factor and in the case of the algorithm above this is the logarithmic sort, due to this the time complexity is defined as O(n log n). 
 ***
 ## h If the size of the input list is large, which of these two algorithms is likely to run faster? Explain your answer.
+The second algorithm will be faster with larger sets of data due to the sorting of the data and the ability to merely check the element prior to the current element rather than having to check multiple elements. The only time it would be faster to use the first algorithm with small sets of data where the sorting of the data is redundent and simply creates an amount of inefficiency. 
 ***
 ## i Suggest one reason why a programmer might choose the “slower” algorithm over the “faster” one.
 Faster search algorithms are usually more complex to code and also often require prior sorting of what is being searched. A novice level programmer may struggle with this as they are much harder to code and there is often much more code or more complicated syntax involved in there more efficient searches that a novice programmer would not have the knowlege to use and/or understand.
