@@ -47,3 +47,4 @@ The algorithm above has to sections to it, the sort which makes use of the pytho
 ## h If the size of the input list is large, which of these two algorithms is likely to run faster? Explain your answer.
 
 ## i Suggest one reason why a programmer might choose the “slower” algorithm over the “faster” one.
+Faster search algorithms are usually more complex to code and also often require prior sorting of what is being searched. A novice level programmer may struggle with this as they are much harder to code and there is often much more code or more complicated syntax involved in there more efficient searches that a novice programmer would not have the knowlege to use and/or understand.
