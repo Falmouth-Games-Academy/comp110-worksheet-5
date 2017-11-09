@@ -16,7 +16,7 @@
 
 (g) Time complexity is O(n log n) because we only take the dominant term
 
-(h) The second algorithm using the sort function should run faster. O(n log n) is faster than O(n^2) [Reference: bigO cheatsheet](http://bigocheatsheet.com/)
+(h) The second algorithm using the sort function should run faster. As the amount of elements grow O(n log n) needs a lot less operations compared to O(n^2) [Reference: bigO cheatsheet](http://bigocheatsheet.com/)
 
 (i) Might user the slower function as the sorted list needs to be stored in memory using more memory space than the slower function.
 
