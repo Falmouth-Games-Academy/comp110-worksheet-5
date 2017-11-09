@@ -41,9 +41,9 @@ procedure HASDUPLICATE(list)
 end procedure
 ```
 ## f With reference to an appropriate source, write down the time complexity of Python’s built-in sort function, in big-O notation
-The sort function in python makes use of the syntax ```Sort()``` the details of which can be found in the python documentation here [https://docs.python.org/2/howto/sorting.html] and according to the python wiki [https://wiki.python.org/moin/TimeComplexity] the time complexity can be called as O(n log n)
+The sort function in python makes use of the syntax ```Sort()``` the details of which can be found in the python documentation here [https://docs.python.org/2/howto/sorting.html] and according to the python wiki [https://wiki.python.org/moin/TimeComplexity] the time complexity can be called as O(n log n).
 ## g Thus write down the time complexity of the above algorithm in big-O notation. Explain your answer
-
+The algorithm above has to sections to it, the sort which makes use of the python inbuilt sort function gives this section the time complexity of O(n log n). The second section is a liniar search which has a time complexity of o(n). Due to the nature of "big O notation" it only looks at the most significant factor and in the case of the algorithm above this is the logarithmic sort, due to this the time complexity is defined as O(n log n). 
 ## h If the size of the input list is large, which of these two algorithms is likely to run faster? Explain your answer.
 
 ## i Suggest one reason why a programmer might choose the “slower” algorithm over the “faster” one.
