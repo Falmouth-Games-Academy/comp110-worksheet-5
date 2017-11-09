@@ -5,7 +5,7 @@ Base repository for COMP110 worksheet C
 2: 	let n be the length of list
 3: 		for i = 0, 1, . . . , n − 1 do
 4: 			for j = 0, 1, . . . , n − 1 do
-5: 				if i 6= j and list[i] = list[j] then
+5: 				if i != j and list[i] = list[j] then
 6: 					return true
 7: 				end if
 8: 			end for
@@ -15,7 +15,7 @@ Base repository for COMP110 worksheet C
 
 ```
 ## a State what task this algorithm performs
-
+For each element in list j compare to each element in array j. If 2 elements are not in the same position in the list and they hold the same value then there is a duplicate, else there is not.
 ## b Explain why the worst case running time of the algorithm is quadratic, i.e.O(n^2).
 
 ## c Explain why the algorithm is still correct.
