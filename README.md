@@ -1,4 +1,5 @@
 # comp110-worksheet-C
+<<<<<<< HEAD
 Base repository for COMP110 worksheet C (Arturs Zingis)
 
 
@@ -64,3 +65,6 @@ g) Using binary search to find largest/smallest number in the tree and the basic
 h) If the input list is large, then the O(n log n) would be the fastest as a with a large list, this sort will try break down the problem with each iteration but with O(n), it is more linear and require more steps to perform the sort.
 
 i) The slower algorithm may perform less elements but in a faster time rather than more elements in a slower time.
+=======
+Base repository for COMP110 worksheet C
+>>>>>>> 57a794b904cdc6f40c6ec71149247b3637e6d0e5
