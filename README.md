@@ -15,15 +15,17 @@ Base repository for COMP110 worksheet C
 
 ```
 ## a State what task this algorithm performs
-For each element in list j compare to each element in array j. If 2 elements are not in the same position in the list and they hold the same value then there is a duplicate, else there is not.
+For each element in array i compare to each element in array j. If 2 elements are not in the same position in the list and they hold the same value then there is a duplicate, else there is not.
 ## b Explain why the worst case running time of the algorithm is quadratic, i.e.O(n^2).
+The search mamkes use of 2 liniar searches resulting in a quadratic search. This is due to the combination of nested loops resulting in the worst case being O(n^x) where x is the number of nested loops in this case 2. 
 
+Now suppose that the for loop on line 4 is changed so that j ranges from 0 to i − 1
 ## c Explain why the algorithm is still correct.
-
+As the elements have to be in the same position to count as a duplicate there is no need to check any positions in array j after the position that the element holds in list i as it will always return as false.
 ## d  Explain why the algorithm will run approximately twice as fast.
-
+The algorithm is only checking up till the element number of the element in list i in list j. As such it only check the first element on the first itteration and will work up to all of the elements in the final itteration, this will average out to 50% run time or twice as fast.
 ## e Is the time complexity of the algorithm still quadratic? Explain your answer.
-
+Yes there are still 2 nested search algorithms and as such it will always be quadratic even though it is made much faster by the change.
 Now consider the following algorithm, which performs the same task as the
 first:
 ```
