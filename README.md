@@ -6,7 +6,7 @@ if it finds similar numbers, it returns true. Otherwise, returns that it didn't 
 
 b) Because it checks the same numbers twice.
 
-c & d) It still runs correct, because it won't go over the same checks every time 1st loop "i" increases.
+c & d) It still runs correct, but it won't go over the same checks every time the first loop "i" increases.
 
 e) No, it's not. In this case, the algorithm doesn't check the same numbers twice.
 
