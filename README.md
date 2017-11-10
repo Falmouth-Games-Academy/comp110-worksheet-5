@@ -10,10 +10,10 @@ c & d) It still runs correct, but it won't go over the same checks every time th
 
 e) No, it's not. In this case, the algorithm doesn't check the same numbers twice.
 
-f) https://www.quora.com/What-is-the-time-complexity-of-the-Python-built-in-sorted-function. Time complexity of Python's *sort* is O(n log n)
+f) https://wiki.python.org/moin/TimeComplexity (First list). Time complexity of Python's *sort* is O(n log n)
 
 g) The time complexity of this algorithm is O(n), because it checks with the numbers that are next to each other, unlike the first one.
 
-h) With a binary search the algorithm only looks for halfs of the remaining list, whereas linear is checkinh every single one, which take more time.
+h) Second one, because it checks only numbers that are next to each other.
 
 i) It might be more precise than the faster one.
