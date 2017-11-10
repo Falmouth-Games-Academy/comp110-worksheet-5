@@ -25,9 +25,3 @@ Base repository for COMP110 worksheet C
 
 A) State what task this algorithm performs.
 This aglgorithm is a duplicate check on a list of figures , it starts with two sets of lists i and j for each sets of figures , the aglorithm takes 1 for the length of the list to check if both lists are running equal to each other if both are equal then it will return true if both lists are not equal it will return false.  
-
-B)Explain why the worst case running time of the algorithm is quadratic, i.e.
-O(n2).
-
-It is worst case scenario because you would have to go through each list n times with every phase aand it would have to use the first for loop which would take double the amount of time.
-
