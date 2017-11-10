@@ -8,7 +8,7 @@ b) Because it checks the same numbers twice.
 
 c & d) It still runs correct, but it won't go over the same checks every time the first loop "i" increases.
 
-e) No, it's not. In this case, the algorithm doesn't check the same numbers twice.
+e) Yes. As it checks twice as less as the first example, the time complexity equals to 0,5n^2, which is still quadrataic.
 
 f) https://wiki.python.org/moin/TimeComplexity (First list). Time complexity of Python's *sort* is O(n log n)
 
