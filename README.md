@@ -18,4 +18,11 @@ When i = 3, it compares it to 0, 1 and 2. This repeats indefinitely and efficien
 
 This appears to be the second-fastest method of searching for duplicates in an unsorted list, the fastest being O(n) using a 'tally chart'-like hashing system, like storing each entry in an array and stopping (returning true) when a new entry already exists.
 
-(f) Now we have sorted our list, 
+(f) I'm unsure whether referencing Wikipedia is a cardinal sin or not, but (with reference to the Wikipedia page on Timsort (which is the sorting algorithm used in Python's built in sorting functions)[https://en.wikipedia.org/wiki/Timsort#Analysis], it has a worst case complexity of O(n log n), with a best case (when the input is already sorted) of O(n).
+
+(g) If we include Python's sort into this equation, it would remain O(n log n) as the difference made by line 4's 'for loop' is small enough to be ignored when writing our big O formula. 
+Otherwise, if we exclude the sort from this equation, the complexity of line 4 would be at most O(n), linear.
+
+(h) The second function will run faster with larger lists because the first function suffers with scalability - with large lists its runtime grows massively, whereas the second function has a very stable runtime as the size of n grows.
+
+(i) The reason "slower" and "faster" are written in quotations is because one is not **always** faster than the other. It is a question of scalability, and scalability vs simplicity is the reason a programmer might choose one over the other - because the "slower" one may be faster/the same and much simpler to implement when we needn't take scalability into account.
