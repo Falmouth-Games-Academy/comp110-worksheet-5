@@ -1,4 +1,4 @@
-a) Checks if a list contains a duplicate.
+a) It checks if a list contains a duplicate.
 
 b) Because if the list contains no duplicates, it will have to run through the second again for every additional element.
 
