@@ -14,4 +14,4 @@ g) O(n log n). The algorithm itself should run at O(n), but it's limited by the 
 
 h) The latter. O(n log n) should run faster than O(n²) for large sample sizes.
 
-i)
+i) 
