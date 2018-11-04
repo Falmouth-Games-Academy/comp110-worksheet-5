@@ -14,4 +14,4 @@ g) O(n log n). The algorithm itself should run at O(n), but it's limited by the 
 
 h) The latter. O(n log n) should run faster than O(n²) for large sample sizes.
 
-i) 
+i) I can't think of an answer to this and nobody I talked to can either. The only thing I can think of is the typo in the second procedure - using the var "list" instead of "sortedList"?
