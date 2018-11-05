@@ -15,6 +15,6 @@ f) According to the top answer on https://stackoverflow.com/questions/14434490/w
 
 g) The time complexity of this algorithm would be O(n log n + n) because we can assume that the time complexity of the sort function used is O(n log n) and the time complexity of the for loop is o(n). Therefore when we add the two together we get O(n log n + n).
 
-h) The second algorithm will be more likely to run faster than the first because O(n log n) < O(n^2).
+h) The second algorithm will be more likely to run faster than the first because O(n log n + n) < O(n^2).
 
 i) A programmer might choose the "slower" algorithm if the size of the input list is so small that it would actually take more time for the "faster" algorithm to run.
