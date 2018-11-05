@@ -20,5 +20,5 @@ H) Even if the change in firest algorithm will be aplied it wont run faster than
 I) In terms of these two exapmles of pseudo code I think that programmer could use a slower algorithm because it can work in any other programming language that does not have "sort" function built in, programmer also may not have a knowledge of existance of "sort" function in python or does not know ways to well optymalise code.
 
 
-Graph presents performance of list function, performance of a for loop in second algorithm, performance of a second algorithm and performance of a first algorithm.
+Graph presents performance of list function, performance of a for loop in second algorithm, performance of a second algorithm and performance of a first algorithm (visualisation for questions from F to I).
 <img src="QuestionG.png" alt="QuestionG">
