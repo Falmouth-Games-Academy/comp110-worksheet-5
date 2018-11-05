@@ -1,7 +1,7 @@
 # comp110-worksheet-C
 Base repository for COMP110 worksheet C
 
-##### (a)
+#### (a)
 The algorithm performs a search of the list to find if there are any duplicate items
 
 #### (b)
