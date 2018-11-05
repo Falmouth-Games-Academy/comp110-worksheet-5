@@ -1,6 +1,6 @@
 # comp110-worksheet-C
 Base repository for COMP110 worksheet C
-<h3>(a)
+<h3>(a)<\h3>
 The algorithm checks through the list to see if it has duplicate entries in it. If it has, it returns true, if not it returns false.
 <h3>(b)
 The algorithm is in quadratic time (O(n^2)) because the function checks item i in the list, then j increments through all posible positions in the list to check for duplicates. This means that for each item in the list you are checking the entire list.
