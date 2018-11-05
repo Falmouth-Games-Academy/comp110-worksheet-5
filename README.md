@@ -13,7 +13,7 @@ e) The time complexity for the changed algorithm is not quadratic (O(n^2) anymor
 
 f) According to the top answer on https://stackoverflow.com/questions/14434490/what-is-the-complexity-of-this-python-sort-metho and https://wiki.python.org/moin/TimeComplexity the time complexity of the 'sort' function in python in the worst and average case is O(n log n). The answer from the first source refers to a wikipedia article about the sort function in python https://en.wikipedia.org/wiki/Timsort which states that in the worst case the time complexity of the function is O(n log n) and in the best (when the input is already sorted) it's O(n).
 
-g) The time complexity of this algorithm would be O(n log n) because we can assume that the time complexity of the sort function used is O(n log n) and the time complexity of the for loop is o(n). Therefore the time complexity of the algorithm will be the same as of the sorting function (O(n log n)).
+g) The time complexity of this algorithm would be O(n log n + n) because we can assume that the time complexity of the sort function used is O(n log n) and the time complexity of the for loop is o(n). Therefore when we add the two together we get O(n log n + n).
 
 h) The second algorithm will be more likely to run faster than the first because O(n log n) < O(n^2).
 
