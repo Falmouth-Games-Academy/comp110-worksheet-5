@@ -17,7 +17,9 @@ Base repository for COMP110 worksheet C
 	us with n x n elements iterated through, coming up to a total of n^2 steps =>
 	=> Complexity of O(n^2)
 ### (c)
-	* Question: having verified the code in Python, the syntax is still correct, however in the case of C-based languages simply changing the range of j would cause errors (if i is 0, then j would go from 0 to -1 with an implicit step of 1)
+	* Question: having verified the code in Python, the syntax is still correct, however in the case of 
+	C-based languages simply changing the range of j would cause errors (if i is 0, then j would go 
+	from 0 to -1 with an implicit step of 1)
 	* That said, the algorithm is still correct because now it simply checks
 	all the elements before the one we are currently at (j <= i - 1).
 	This means that even we are not checking all the elements with each
@@ -46,11 +48,12 @@ Base repository for COMP110 worksheet C
 	time complexity of the algorithm is O(2n logn), which can be further simplified to
 	O(n logn)
 ### (h)
-	The 2 time complexities can be safely reduced to n * n and, respectively, n * log(n). For instance, if
-	one were to calculate the limit of n^2/n*log(n) (http://www.wolframalpha.com/input/?i=lim+n+log(n)+%2F+n%5E2),
+	The 2 time complexities can be safely reduced to n * n and, respectively, n * log(n). For instance, if one were
+	to calculate the limit of n^2/n*log(n) (http://www.wolframalpha.com/input/?i=lim+n+log(n)+%2F+n%5E2),
 	it would result in 0, which means that n^2 will grow faster, making it less efficient in favour of n*log(n),
 	if n is high enough (as in our case).
 ### (i)
-	As previously stated, O(n*log(n)) is prefferable, but only when n is high enough. Therefore, one may want to use the 
-	'less efficient' method either for the sake of performance when n is low enough, or for  the sake of code simplicity
+	As previously stated, O(n*log(n)) is prefferable, but only when n is high enough. Therefore, 
+	one may want to use the 'less efficient' method either for the sake of performance when 
+	n is low enough, or for  the sake of code simplicity
 	
