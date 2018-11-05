@@ -3,6 +3,27 @@ Base repository for COMP110 worksheet C
 
 a) State what task this algorithm performs.
 
+b) Explain why the worst case running time of the algorithm is quadratic, i.e.
+O(n^2).
+it's n to the power of 2 because it has to loop through i and then loop through again for j
+
+Now suppose that the for loop on line 4 is changed so that j ranges from 0 to
+i − 1.
+
+c) Explain why the algorithm is still correct.
+
+because n is just the value of i looping through the values
+
+d) Explain why the algorithm will run approximately twice as fast.
+
+because it doesn't need to loop through n it just needs to loop through i
+
+e) Is the time complexity of the algorithm still quadratic? Explain your answer.
+
+yes because it's still looping to the power of 2 because it loops through i and it loops through j
+
+f) 
+
 1) procedure HASDUPLICATE(list)
 
 a) This line starts the function called "HasDuplicate(list)" and adds the variable list in the parameters
