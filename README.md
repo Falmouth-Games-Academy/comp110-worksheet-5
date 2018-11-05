@@ -39,7 +39,7 @@ In accordance with the principles of complexity, the complexity
 	of O((n * n - 1)/2) can be reduced to O((n * n)/2) and even further to O(n^2).
 	Therefore, yes, the complexity is still quadratic
 ### (f)
-According to the Python Wiki (https://wiki.python.org/moin/TimeComplexity), the
+According to the [Python Wiki](https://wiki.python.org/moin/TimeComplexity), the
 	built-in sort() function uses Timsort, an algorithm that has an average 
 	time complexity of O(n logn)
 ### (g)
@@ -49,11 +49,12 @@ The given algorithm can be broken down into: sorting the given list using Python
 	O(n logn)
 ### (h)
 The 2 time complexities can be safely reduced to n * n and, respectively, n * log(n). For instance, if one were
-	to calculate the limit of n^2/n*log(n) (http://www.wolframalpha.com/input/?i=lim+n+log(n)+%2F+n%5E2),
-	it would result in 0, which means that n^2 will grow faster, making it less efficient in favour of n*log(n),
-	if n is high enough (as in our case).
+to [calculate the limit of n^2/nlog(n)](http://www.wolframalpha.com/input/?i=lim+n+log(n)+%2F+n%5E2), 
+it would result in 0, which means that n^2 will grow faster, making it less efficient in favour of nlog(n),
+if n is high enough (as in our case). Howver, for a smaller set of values, one might argue that nlog(n) would be
+the better solution
 ### (i)
-As previously stated, O(n*log(n)) is prefferable, but only when n is high enough. Therefore, 
+As previously stated, O(nlog(n)) is prefferable, but only when n is high enough. Therefore, 
 	one may want to use the 'less efficient' method either for the sake of performance when 
 	n is low enough, or for  the sake of code simplicity
 	
