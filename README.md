@@ -28,3 +28,6 @@ The [Python documentation of time complexity for various functions](https://wiki
 First of all, the algorithm calls the sort method which has a notation of **_O_(n _log_ n)**
 The second part of the algorithm then has a search based on the length of the list which as previously explained has a notation of **_0_(n)**.
 We can therefore assume that the full time complexity would be **(n _log_ n) * (n)**, simplified to **(n^2 _log_ n^2)**. Meaning that the proper notation of the algorithm is **_O_(_log_ n^2)**.
+
+## (h)
+I think that the second algorithm will run faster with a larger input list, this is because as a logarithmic function, as larger input lists are used, it will take less and less additional time compared to shorter lists, This will counteract the effect of the exponent, and will make it a lot slower than that of the first algorithm which has only an exponent.
