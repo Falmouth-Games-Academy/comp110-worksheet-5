@@ -31,3 +31,6 @@ We can therefore assume that the full time complexity would be **(n _log_ n) * (
 
 ## (h)
 I think that the second algorithm will run faster with a larger input list, this is because as a logarithmic function, as larger input lists are used, it will take less and less additional time compared to shorter lists, This will counteract the effect of the exponent, and will make it a lot slower than that of the first algorithm which has only an exponent.
+
+## (i)
+One of the reasons that a programmer may choose a "slower" algorithm over a "faster" algorithm could be because the "slower" algorithm may only be slower with larger inputs, but faster with smaller inputs.
