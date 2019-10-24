@@ -1,5 +1,5 @@
 # comp110-worksheet-5
-Base repository for COMP110 worksheet 5
+COMP110 worksheet 5 completed by James Berry
 
 ## (a)
 Checks _every index_ in a list against _every index_ in the same list,
