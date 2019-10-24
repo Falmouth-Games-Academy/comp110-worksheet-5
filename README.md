@@ -20,3 +20,6 @@ The algorithm will take a longer time to run the further into the list it is che
 
 ## (e)
 The first _for loop_, represented as **i**, has not changed and is still a linear equation. The second _for loop_, represented by **j** however, has been changed; the time taken by **j** has a much lower average time as a constant than before, but it relies on where **i** is in the list and therefore will still increase in time as **n** increases, and is therefore still a linear search. Using the method I showed in part (b), I can assume that the product of the two linear searches is still a quadratic, although it will get exponentially faster than the algorithm in part (b) as **n** increases.
+
+## (f)
+The [Python documentation of time complexity for various functions](https://wiki.python.org/moin/TimeComplexity) gives the time complexity of the _sort_ function as O(n log n)
