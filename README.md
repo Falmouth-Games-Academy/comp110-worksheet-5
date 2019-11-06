@@ -6,3 +6,4 @@ If there are two items which are the same at different indices then there is a d
 If there are no duplicates the program returns 'false'.  
 
 ###b)
+
