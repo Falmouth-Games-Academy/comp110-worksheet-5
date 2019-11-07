@@ -15,3 +15,15 @@ The algorithm will run approximately twice as fast because on average over the c
 
 ### E
 The time complexity is still quadratic because the list is still being iterated through in two different for loops, meaning that the list still has to be compared through twice, resulting in O(n)*O(n) which is simplified to O(n^2). Therefore, it is still quadratic.
+
+### F
+https://wiki.python.org/moin/TimeComplexity Python's wiki shows the time complexity for average and worst cases of functions in the language. On the page, it shoes that the sort() function has a time complexity of O(n log n) for both average and worst cases.
+
+### G
+Because the algorithm uses the python sort() function, it inherits the time complexity of O(n log n) because that is the time complexity in which the sorting of the algorithm is operating. 
+
+### H
+The second algorithm will run faster because O(n log n) runs the algorithm in less operations than the first algorithm in which the time complexity is O(n^2). This happens because the operations required with O(n^2) increases exponentionally with the increase in elements of the list. Whereas the growth for O(n log n) is less steep and therefore will be able to complete the algorithm sooner.
+
+### I
+You might choose to use the slower algorithm in this case because it doesn't deal with sorting the list, meaning that the algorithm might actually complete faster for smaller sized lists as it doesn't require additional steps in order to start comparing elements. This would be more visible in a best case scenario in which the procedure finds a duplicate early on, perhaps whilst the 'faster' algorithm is finishing sorting and moving in to comparisons.
