@@ -20,3 +20,6 @@ The algorithm is faster but it is still quadratic because it take about half the
 would make it linear.
 
 ###f)  
+Python's sort function has a time complexity of O(n log n) [python time complexities](https://wiki.python.org/moin/TimeComplexity)  
+
+###g)  
