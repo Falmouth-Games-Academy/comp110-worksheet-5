@@ -1,5 +1,6 @@
 # comp110-worksheet-5
 Base repository for COMP110 worksheet 5
+by *Adrian Tofan*.
 
 ## (a)
 
@@ -42,3 +43,19 @@ Python's built-in sort method is using Timsort as a sorting algorithm, taking ad
 of consecutive ordered elements. In the worst case, Timsort/Python's built-in sort takes O(n log n) comparisons
 to sort an array of n elements. The best case performance being O(n) and the average case performance being O(n log n).
 
+[Reference link 1](https://en.wikipedia.org/wiki/Timsort)
+[Reference link 2](https://stackoverflow.com/questions/25813774/complexity-of-python-sort-method)
+
+## (g)
+
+It is O(n log n), as n log n(the complexity of the built-in sort method) + n = n log n time complexity; n log n > n.
+
+## (h)
+
+The second algorithm would be faster than the first one, as the Timsort algorithm is supposed to work with larger inputs. The first one would work better for shorter lists.
+The second algorithm's worst case time complexity is O(n log n), while the first algorithm's worst case is O(n*n). 
+
+## (i)
+
+The programmer's choice would depend on the size of the data they are working with. Taking exercise h) as an example, the first algorithm would be considered slower than the second one when working with
+larger inputs, but it would be more efficient on shorter lists.
