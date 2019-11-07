@@ -31,7 +31,7 @@ https://wiki.python.org/moin/TimeComplexity
 
 (g). n log(n) + n
 
-O(n log n) 
+
 
 (h). If the size of the list is large, than the quicker algorithm will be O(n log n), as the O(n^2) grows in number of operations much more quickly because its multiplying the lists length by the list length every time it is run. Whereas O(n log n) has a less aggressive increase than the quadratics.
 
