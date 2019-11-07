@@ -26,13 +26,13 @@ elements every iteration.
 In order to find the answer, I will draw a table of iterations for each loop:
 
 |Value of 'i'| |Number of iterations of the second loop|
-|---|---|---|
-|0| |0|
-|1| |1|
-|2| |2|
-|...| |...|
-|n-2| |n-2|
-|n-1| |n-1|
+|---|---|
+|0||0|
+|1||1|
+|2||2|
+|...||...|
+|n-2||n-2|
+|n-1||n-1|
 
 So the total number of iterations of the inner loop is equal to 'i' so the time complexity is still quadratic.
 
