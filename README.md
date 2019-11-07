@@ -26,13 +26,13 @@ elements every iteration.
 In order to find the answer, I will draw a table of iterations for each loop:
 
 |Value of 'i'| |Number of iterations of the second loop|
-|---|---|
-|0||0|
-|1||1|
-|2||2|
-|...||...|
-|n-2||n-2|
-|n-1||n-1|
+|---|---|---|
+|0| |0|
+|1| |1|
+|2| |2|
+|...| |...|
+|n-2| |n-2|
+|n-1| |n-1|
 
 So the total number of iterations of the inner loop is equal to 'i' so the time complexity is still quadratic.
 
@@ -41,6 +41,4 @@ So the total number of iterations of the inner loop is equal to 'i' so the time 
 Python's built-in sort method is using Timsort as a sorting algorithm, taking advantage of runs 
 of consecutive ordered elements. In the worst case, Timsort/Python's built-in sort takes O(n log n) comparisons
 to sort an array of n elements. The best case performance being O(n) and the average case performance being O(n log n).
-
-## (g)
 
