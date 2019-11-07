@@ -14,3 +14,16 @@ The algoritmn will run twice as fast due to it checking segments of the list aga
 
 ## E)
 The algoritmn will still be quadratic since it still has two nested for loops at O(n) respectively which leads to O(n^2), but the difference here is that it is twice as fast now, so although the time decreases, the complexity does not and therefore is the same.
+
+## F)
+[Python Sort Time Complexity](https://wiki.python.org/moin/TimeComplexity)
+Python's Sort() has is a linear time complexity which has the notation of O(n log n) which is linearithmic
+
+## G)
+The time complexity of the new HasDuplicate(list) is linear at O(n) and Python's sort function is O(n log n). When working with the notation we only care for the dominant one which in this case is linear, so the time complexity is O(n).
+
+## H)
+If the size of the input list is large the algoritm with the sort would be faster since although it is slower with the first few elements it is much faster later on fr the rest of the elementscompared to the linear which is faster at first, but then increases linearly which becomes slower.
+
+## I)
+One reason you might want to go with the 'slower' option is that the linear one would be perfect for a really small array of elements since it does it quicker for few elements despite being slower later on.
