@@ -6,4 +6,5 @@ If there are two items which are the same at different indices then there is a d
 If there are no duplicates the program returns 'false'.  
 
 ###b)
-
+There are 2 nested for loops. The outer loop executes n times and the inner loop executes m times for each n.  
+Therefore the time complexity is n * m or O(n^2).
