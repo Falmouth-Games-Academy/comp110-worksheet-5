@@ -3,29 +3,40 @@ Base repository for COMP110 worksheet 5
 
 ### A)
 
-Where variable `list` is of type `T[]` and type `T` is defined on input, check for duplicate values at each index **in reverse** (progressive 2 dimensional iteration).
-
-(TODO:)
+The procedure checks for elements equal to each other, where the indexes are not equal (progressive 2 dimensional iteration).
 
 ### B)
 
-As variable `j` is iterated through to 0, `i` is decremented by 1. And repeat until `i` reaches 0 or until return is called. The worst case is defined as having duplicate values on the last 2 indexes (therefore resulting in the longest possible runtime). 
+Checking `list` at indexes `i` & `j` where not equal, requires dual integer decrementation. On each cycle, checking for a return condition or if a loop condition has been met. `n^2` is the count of values to check.
 
 (TODO:)
 
 ### C)
 
+`j` now only checks from where `i` is currently at, therefore requiring less checks each cycle.
+
 (TODO:)
 
 ### D)
+
+Checking each index from where `i` left off, reducing the time to complete the task (progressive decremation sequence over list of values).
 
 (TODO:)
 
 ### E)
 
+Yes, it is still possible to search the entire list (yet it does not reveal what value(s) it has found, so there can be more than one duplicate).
+
 (TODO:)
 
 ### F)
+
+![Google Math Render of O(N Log N)](https://chart.googleapis.com/chart?cht=tx&chl=O(N%20Log%20N))
+
+- [Python/moin TimeComplexity](https://wiki.python.org/moin/TimeComplexity)
+- [Python SVN trunk file](http://svn.python.org/projects/python/trunk/Objects/listsort.txt)
+
+<!-- > **NOTE: `sort` is not is not a function in native python version x, use `<list>.sort()` or `sorted(<list>)`.** -->
 
 (TODO:)
 
