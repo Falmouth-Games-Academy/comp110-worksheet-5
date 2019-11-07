@@ -27,10 +27,12 @@ The time complexity is still quadratic as it is still using nested for loops whi
 
 ##G)
 
-
+As the algorithm consits of a single for loop it is linear and has a time complexity of O(n). The list sort however has a time complexity of O(n log n) although this is irrelevent as for time complexity you take the worst case which for this is O(n).
 
 ##H)
 
-
+The second algorithm is likely to run faster as it has a linear time complexity which should run faster than a quadratic time complexity as the items in the list increases to larger numbers.
 
 ##I)
+
+A programmer may choose a typically slower algorithm as if they run off of different time complexities then one may be better suited to smaller lists and actually run faster.
