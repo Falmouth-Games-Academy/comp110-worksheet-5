@@ -1,4 +1,4 @@
-# comp110-worksheet-5
+# Comp110 Worksheet 5
 ## Cole Gilbert
 
 ### A
