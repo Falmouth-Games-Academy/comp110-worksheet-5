@@ -20,6 +20,14 @@ The algorithm is faster but it is still quadratic because it take about half the
 would make it linear.
 
 ###f)  
-Python's sort function has a time complexity of O(n log n) [python time complexities](https://wiki.python.org/moin/TimeComplexity)  
+Python's sort function has a time complexity of O(n log n). As found from [python time complexities](https://wiki.python.org/moin/TimeComplexity)  
 
 ###g)  
+O(n log n)is a greater time complexity than O(n) so the time complexity stays as O(n log n).  
+
+###h)  
+For larger inputs O(n log n) is faster than O(n^2) so the second algorithm will run faster than the first.  
+
+###i)  
+If the programmer knows that the lists that their program will be sorting are going to be small then they may choose  
+the slower one because it is actually quicker for smaller inputs.
