@@ -16,3 +16,7 @@ n is the length of the whole list so using i-1 instead stops the algorithm from 
 It has about half the comparisons to make so takes about half the time.  
 
 ###e)  
+The algorithm is faster but it is still quadratic because it take about half the time not square root the time which  
+would make it linear.
+
+###f)  
