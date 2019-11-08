@@ -1,6 +1,7 @@
 # comp110-worksheet-5
 
 (a)
+
 The algorithm is used to check whether any items within a list have the same value, and it returns True if this is the case.
 
 This is achieved by a loop that assigns a value to the variable "i" once every loop. The value of "i" starts at 0, then increases by 1 each loop until it is equal to the number of items in the list minus one.
