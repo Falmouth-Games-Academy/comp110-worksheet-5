@@ -18,11 +18,19 @@ This is an effective way to check for duplicate items in a list as the algorithm
 
 The values of "i" and "j" have to range between 0 and the length of the list minus 1 as the first item in the list is stored at the index position 0. This means that if "i" or "j" increased to a value exactly equal to the number of items in the list the algorithm would try to check an item at an index position that does not exist on the final loop, causing an error.
 
-
-
-
 (b)
 
+The worst case running time of the algorithm is quadratic as the main loop checks every item in the list each loop, and each time it does so the nested loop itself checks every item in the list. This means that the algorithm must perform a number of checks equal to the number of items in the list once for each item in the list, therefore performing a total number of checks equal to the number of items in the list multiplied by itself.
 
+(c)
 
-The worst case running time of the algorithm is quadratic as it has the main loop check every item in the list and each time it does so the nested loop itself checks every item in the list. This means that the algorithm must perform checks equal to the number of items in the list multiplied by the number of items in the list O(n^2).
+The algorithm still works as "i" will still increase until it is equal to n-1.
+
+The nested loop that assigns values to "j" now compares the current value of "i" to the value of every item in the list with a lower index position than the value of "i". As the main loop still iterates through every item in the list any items towards the end of the list are checked against all items before them, so it does not matter that the nested loop does not check the value of items with index positions greater than "i" as any duplicate values will be found during the later checks.
+
+(d)
+
+The algorithm will run approximately twice as fast as the nested loop now only assigns values to "j" that range between 0 and i-1. This means that less of these loops are run throughout the running of the algorithm, allowing it to complete its intended task in approximately half of the time.
+
+(e)
+
