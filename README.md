@@ -12,3 +12,16 @@ The code will still be correct because instead of going through the entire list 
 The code it going through less elements as when the index of i gets to say 8 j will be at i - 1 and therfore be 7 overall reducing the ammount of time that is taken up by not checking previously checked elements
 
 ## E)
+Technicly speaking this should still be a quadratic as it is still 2 for loops with one indented within the other meaning it should still be n^2
+
+## F)
+The time complexity of pythons sort function is O(n log n) [StackOverflow](https://stackoverflow.com/questions/14434490/what-is-the-complexity-of-this-python-sort-method)
+
+## G)
+When we are dealing with time complexity we only need to care about the most dominant one in this case it would be O(n)
+
+## H)
+As long as the list is large enough i believe that the second algorithm would be faster as its liniar. Whilst the first algorithm will take longer on larger list cause as the number of items increases the time taken with n^2. So if there were 100 items the second algorithm would take 100^2 seconds/miliseconds to complete
+
+## I)
+They may choose the "slower" one when using a smaller list as a quadratic would be faster for smaller lists.
