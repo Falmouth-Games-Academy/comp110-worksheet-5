@@ -39,3 +39,15 @@ The time complexity of the algorithm is no longer quadratic as it no longer comp
 (f)
 
 According to the Python Wiki (https://wiki.python.org/moin/TimeComplexity) both the average case and worst case time complexities for the sort() function are O(n log n).
+
+(g)
+
+The time complexity of the algorithm is O(n log n) + O(n) as it performs the sort() function and then performs a for loop that has a linear time complexity.
+
+(h)
+
+The second algorithm is likely to run faster with a larger list as the first algorithm is quadratic and therefore has a runtime based on the number of items in the list squared. This means that as a larger number list items are added the runtime of the first algorithm will increase greatly, whereas this increase is not as severe when it comes to the second algorithm.
+
+(i)
+
+The first algorithm may be chosen over the second algorithm in cases where the list has very few items, as the second algorithm relies on the sort() function which has a time complexity of O(n log n). This makes the second algorithm slower in cases where n^2 is lower than (n log n).
