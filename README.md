@@ -17,3 +17,8 @@ If no matching items are found throughout the entirety of the main loop the algo
 This is an effective way to check for duplicate items in a list as the algorithm uses the loops to compare the value of every item in the list to the value of every other item in the list.
 
 The values of "i" and "j" have to range between 0 and the length of the list minus 1 as the first item in the list is stored at the index position 0. This means that if "i" or "j" increased to a value exactly equal to the number of items in the list the algorithm would try to check an item at an index position that does not exist on the final loop, causing an error.
+
+
+(b)
+
+The worst case running time of the algorithm is quadratic as it has the main loop check every item in the list ach time it does so the nested loop checks every item in the array. This means that the algorithm must perform checks equal to the number of items in the list multiplied by the number of items in the list.
