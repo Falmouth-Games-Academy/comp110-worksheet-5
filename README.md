@@ -46,7 +46,7 @@ The time complexity of the algorithm is O(n log n) + O(n) as it performs the sor
 
 (h)
 
-The second algorithm is likely to run faster with a larger list as the first algorithm is quadratic and therefore has a runtime based on the number of items in the list squared. This means that as a larger number list items are added the runtime of the first algorithm will increase greatly, whereas this increase is not as severe when it comes to the second algorithm.
+The second algorithm is likely to run faster with a larger list as the first algorithm is quadratic and therefore has a runtime based on the number of items in the list squared. This means that as a larger number of list items are added the runtime of the first algorithm will increase greatly, whereas this increase is not as severe when it comes to the second algorithm.
 
 (i)
 
