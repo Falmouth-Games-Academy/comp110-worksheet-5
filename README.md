@@ -47,7 +47,8 @@ Peters, T. (2019). Sorting. [online] Available at: https://mail.python.org/piper
   
   
   
-### g. O(N)  
+### g.  
+O(N)  
  The algorithm above is only using one for loop  
  operation making it linear. O(N) represents linear time in   
 big-O notation.  
@@ -62,7 +63,7 @@ making it much faster with a larger n.
   
   
   
-###i.  
+### i.  
 Some programmers may choose the "slower" algorithm because it is easier to   
 write, read and mantain, whereas the "faster" algorithm may be harder  
 to understand and change. Even when a list is long the time difference   
