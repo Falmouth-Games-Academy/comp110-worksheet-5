@@ -10,7 +10,7 @@ This means if it goes through the list and i and j are not equal to eachother it
 returns true, whereas if they it returns false.  
   
 ### b.  
-The worste case running time of this algorithm is O(n2) is because it involves  
+The worst case running time of this algorithm is O(n2) is because it involves  
 two for loops where one is nested in the other. This means the time complexity is times itself leading  
 to the n sqaured. Due to this with two for loops the slowest case of running time will be quadratic   
 represented as O(n2) in big O notation.  
@@ -22,7 +22,7 @@ http://www.csd.uwo.ca/courses/CS1027b/notes/AnalysisIntro.pdf
 ### c.  
 The algorithm is still correct as it still uses a for loop to check through each list   
 and will still return true if each list doesnt have duplicates and still return false if  
-they do.z  
+they do.    
   
 ### d.   
 The algorithm will run much faster, as when an algorithm is quadratic the time taken to   
@@ -48,9 +48,9 @@ Peters, T. (2019). Sorting. [online] Available at: https://mail.python.org/piper
   
   
 ### g.  
-O(N)  
+O(n)  
  The algorithm above is only using one for loop  
- operation making it linear. O(N) represents linear time in   
+ operation making it linear. O(n) represents linear time in   
 big-O notation.  
   
 ### h.  
@@ -59,8 +59,6 @@ This is because with the quadratic algorithm as the list gets larger it becomes
 more and more increasingly slow, as the time complexity grows quadratiaccly as n   
 increases. On the otherhand, the second linear algothirm only times itself by 1n  
 making it much faster with a larger n.  
-  
-  
   
   
 ### i.  
