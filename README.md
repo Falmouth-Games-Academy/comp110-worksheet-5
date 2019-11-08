@@ -34,3 +34,8 @@ The algorithm will run approximately twice as fast as the nested loop now only a
 
 (e)
 
+The time complexity of the algorithm is no longer quadratic as it no longer compares the value of every item in the list to that of every other item in the list. As the algorithm only checks part of the list in each nested loop the time complexity is now logarithmic.
+
+(f)
+
+According to the Python Wiki (https://wiki.python.org/moin/TimeComplexity) both the average case and worst case time complexities for the sort() function are O(n log n).
