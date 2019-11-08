@@ -21,4 +21,4 @@ The values of "i" and "j" have to range between 0 and the length of the list min
 
 (b)
 
-The worst case running time of the algorithm is quadratic as it has the main loop check every item in the list ach time it does so the nested loop checks every item in the array. This means that the algorithm must perform checks equal to the number of items in the list multiplied by the number of items in the list.
+The worst case running time of the algorithm is quadratic as it has the main loop check every item in the list and each time it does so the nested loop itself checks every item in the list. This means that the algorithm must perform checks equal to the number of items in the list multiplied by the number of items in the list O(n^2).
